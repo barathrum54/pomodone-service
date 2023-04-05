@@ -2,15 +2,23 @@
 
 ## Introduction
 
-Pomodone Service is an API-driven backend service that facilitates time management and task organization using the Pomodoro Technique. It aims to provide a seamless integration of Pomodoro-based time tracking features into various applications.
+Pomodone Service is an API-driven backend service that facilitates the management and retrieval of logs. This service allows users to create, read, and update log entries through a simple API.
 
 ## Features
 
-- User authentication and registration
-- Task creation, management, and tracking
-- Session management adhering to the Pomodoro Technique
-- Customizable time intervals for work sessions and breaks
-- Reporting and analytics for productivity insights
+- Log entry creation
+- Fetching all log entries
+- Fetching specific log entries by ID
+
+## API Endpoints
+
+Here are the API endpoints for the Pomodone Service:
+
+### Log Management
+
+- `GET /logs`: List all log entries
+- `GET /logs/:id`: Get a specific log entry by ID
+- `POST /logs`: Create a new log entry
 
 ## Setup and Installation
 
@@ -41,11 +49,3 @@ Follow these steps to set up and run the project on your local machine for devel
 
 
 Now, the API service should be running on `http://localhost:3000/`. You can use tools like Postman to test the API endpoints.
-
-## Contributing
-
-Please read the [CONTRIBUTING.md](CONTRIBUTING.md) file for details on how to contribute to the project, and the process for submitting pull requests.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
