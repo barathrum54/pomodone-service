@@ -1,16 +1,18 @@
+![Pomodone Service Logo](https://i.ibb.co/dgG7qSF/favicon-128.png)
+
 # Pomodone Service
 
-## Introduction
+## 🌟 Introduction
 
 Pomodone Service is an API-driven backend service that facilitates the management and retrieval of logs. This service allows users to create, read, and update log entries through a simple API.
 
-## Features
+## 🚀 Features
 
 - Log entry creation
 - Fetching all log entries
 - Fetching specific log entries by ID
 
-## API Endpoints
+## 🔗 API Endpoints
 
 Here are the API endpoints for the Pomodone Service:
 
@@ -20,7 +22,7 @@ Here are the API endpoints for the Pomodone Service:
 - `GET /logs/:id`: Get a specific log entry by ID
 - `POST /logs`: Create a new log entry
 
-## Setup and Installation
+## ⚙️ Setup and Installation
 
 Follow these steps to set up and run the project on your local machine for development and testing purposes.
 
@@ -32,6 +34,7 @@ Follow these steps to set up and run the project on your local machine for devel
 ### Installation
 
 1. Clone the repository
+
 
 - git clone https://github.com/barathrum54/pomodone-service.git
 
